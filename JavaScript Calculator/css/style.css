@@ -96,3 +96,10 @@ button:hover {
     right: 125px;
     color: white;
 }
+
+@media only screen and (max-width: 568px) {
+    body {
+        transform: scale(0.35);
+        transform-origin: 0 0;
+    }
+}
