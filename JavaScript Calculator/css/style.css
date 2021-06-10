@@ -98,8 +98,8 @@ button:hover {
 }
 
 @media only screen and (max-width: 568px) {
-    body {
-        transform: scale(0.80);
-        transform-origin: 0 0;
+    footer {
+        bottom: 0%;
+        font-weight: 100;
     }
 }
