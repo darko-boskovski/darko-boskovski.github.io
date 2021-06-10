@@ -20,9 +20,13 @@ async function getEveryCountryDataFetch() {
     return data
 }
 
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 
 async function getDataFromFetch(countryCode) {
-    let response = await fetch(baseUrl + countryCode)
+    let response = await fetch(baseUrl + capitalizeFirstLetter(countryCode))
     let data = await response.json();
     console.log(`The Country with the native name or partial name "${countryCodeInputWithFetch.value}" using Async/Await is:`)
     return data
