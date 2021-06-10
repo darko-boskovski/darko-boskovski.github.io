@@ -1,0 +1,311 @@
+* {
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    width: fit-content;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+body * {
+    text-align: center;
+}
+
+.background {
+    background-image: url("../images/hero.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    color: white;
+    position: relative;
+}
+
+.background:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(82, 82, 82, 0.5);
+}
+
+header {
+    height: 35em;
+    color: white;
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    font-weight: 500;
+    position: relative;
+}
+
+nav>ul {
+    margin: 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav p {
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.responsive {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.responsive p {
+    font-size: large;
+    font-weight: 500;
+}
+
+.work,
+.top,
+.down {
+    padding: 3%;
+    margin: 0 30%;
+}
+
+.work p {
+    display: inline-block;
+    position: relative;
+}
+
+.work p::after {
+    content: "";
+    height: 2px;
+    width: 25%;
+    background-color: #2791e6;
+    position: absolute;
+    bottom: -1em;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.top p {
+    display: inline-block;
+    position: relative;
+}
+
+.top p::after {
+    content: "";
+    height: 2px;
+    width: 25%;
+    background-color: #2791e6;
+    position: absolute;
+    bottom: -1em;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.down p {
+    display: inline-block;
+    position: relative;
+}
+
+.down p::after {
+    content: "";
+    height: 2px;
+    width: 25%;
+    background-color: #2791e6;
+    position: absolute;
+    bottom: -1em;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+main {
+    padding: 5%;
+    height: 20%;
+    background-color: white;
+}
+
+.work h2 {
+    margin: 0;
+}
+
+aside {
+    padding: 20px;
+    height: 25%;
+    background-color: #f7f7f7;
+}
+
+.middle {
+    display: flex;
+}
+
+.middle>div {
+    margin: 0 3%;
+}
+
+.topimage {
+    height: 12em;
+    display: flex;
+}
+
+img {
+    margin: 8px;
+    object-fit: cover;
+}
+
+.ballon {
+    width: 65%;
+}
+
+.mountain {
+    width: 35%;
+}
+
+.coast {
+    width: 35%;
+}
+
+.island {
+    width: 65%;
+}
+
+.bottomimage {
+    height: 12em;
+    display: flex;
+}
+
+.subscribe {
+    padding-bottom: 20px;
+}
+
+.footerdiv {
+    padding: 10px;
+    height: fit-content;
+    background-color: #414a4f;
+}
+
+footer {
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(194, 191, 191);
+}
+
+.footerdiv p {
+    margin: 0;
+}
+
+.button {
+    background-color: #2791e6;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #2791e6;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.searchbox {
+    text-align: left;
+    height: 38px;
+    width: 20%;
+}
+
+footer .copyright {
+    margin: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.links img {
+    width: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .middle {
+        flex-wrap: wrap;
+        margin: 0 20%;
+    }
+    .images {
+        margin: 0;
+    }
+    img {
+        margin: 2px;
+    }
+    .topimage img {
+        width: 100%;
+        height: 45%;
+    }
+    .topimage {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bottomimage img {
+        width: 100%;
+        height: 45%;
+    }
+    .bottomimage {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .work,
+    .top,
+    .down {
+        padding: 3%;
+        margin: 0 15%;
+    }
+    .searchdiv {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .searchbox {
+        min-width: 180px;
+    }
+    .button2 {
+        max-width: 180px;
+    }
+}
