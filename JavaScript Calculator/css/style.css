@@ -98,7 +98,7 @@ button:hover {
 }
 
 @media only screen and (max-width: 568px) {
-    footer {
+    #footer {
         bottom: 0%;
         font-weight: 100;
     }
