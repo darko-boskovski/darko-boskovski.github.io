@@ -145,6 +145,12 @@ p {
     font-weight: bold;
 }
 
+#footer {
+    font-weight: normal;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .anchored-background-image {
     height: 350px;
     background-repeat: repeat;
@@ -190,6 +196,9 @@ p {
     }
     .cv-page-buttons {
         font-size: 15px;
+    }
+    #cvNavBar {
+        display: block;
     }
     .anchored-background-image {
         height: 150px;
