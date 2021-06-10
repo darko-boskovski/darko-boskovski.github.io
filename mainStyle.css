@@ -9,7 +9,7 @@ body {
 }
 
 li {
-    font-size: 10px;
+    font-size: medium;
 }
 
 h3 {
@@ -17,16 +17,31 @@ h3 {
     text-decoration: underline;
 }
 
+h1 {
+    font-size: 2em;
+}
+
+hr {
+    margin-left: 0;
+    border-color: rgba(255, 255, 255, 0.397);
+    width: 30%;
+}
+
+.underline {
+    width: 100%;
+}
+
 #mainPageContainer {
-    background-image: url("PageAssets/Images/Senua_background.jpg");
+    background-image: url("PageAssets/Images/landscape-1920.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #mainPageBody {
-    width: 1500px;
+    width: 1200px;
     margin: 0px auto;
-    background-color: rgb(2, 2, 2);
+    background-color: rgba(5, 5, 5, 0.712)!important;
     display: flex;
     flex-wrap: wrap;
 }
@@ -45,7 +60,7 @@ h3 {
 }
 
 #cvNavHeadline {
-    width: 100%;
+    width: 1200px;
     margin-top: 5px;
     margin-bottom: 30px;
 }
@@ -79,7 +94,6 @@ a:active {
     background-color: transparent;
     color: rgb(248, 245, 245);
     text-decoration: none;
-    font-size: 20px;
 }
 
 .card-style-01 {
@@ -96,26 +110,26 @@ a:active {
 }
 
 .cv-page-buttons {
-    margin-top: 5px;
-    margin-left: 42%;
+    margin-top: 15px;
+    margin-left: 38%;
     color: white;
     height: 50px;
     font-size: 25px;
-    border-color: rgba(131, 131, 131, 0.5);
+    border-color: rgba(172, 172, 172, 0.5);
     overflow: hidden;
     background-color: transparent;
 }
 
-li {
-    font-size: large;
-}
-
 .cv-page-buttons:hover {
-    box-shadow: 0px 0px 20px rgb(95, 95, 95);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.301);
 }
 
 .cv-page-buttons:focus {
     outline: none;
+}
+
+.cv-page-buttons:active {
+    box-shadow: 0 17px 50px 0 rgba(255, 255, 255, 0.19),
 }
 
 .source-code-button {
@@ -137,12 +151,13 @@ p {
     background-attachment: fixed;
 }
 
-.anchored-background-image-curtain {
+
+/* .anchored-background-image-curtain {
     height: 350px;
     background-color: rgba(95, 95, 95, 0.274);
     background-repeat: repeat;
     background-attachment: fixed;
-}
+} */
 
 #cvBackgroundImage {
     background-image: url("PageAssets/Images/Senua_background.jpg");
@@ -181,12 +196,12 @@ p {
         background-repeat: repeat;
         background-attachment: fixed;
     }
-    .anchored-background-image-curtain {
+    /* .anchored-background-image-curtain {
         height: 150px;
         background-color: rgba(95, 95, 95, 0.274);
         background-repeat: repeat;
         background-attachment: fixed;
-    }
+    } */
     #cvBackgroundImage {
         background-size: 500px;
     }
