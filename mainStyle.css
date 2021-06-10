@@ -1,11 +1,11 @@
 #mainPageContainer {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(193, 253, 255);
 }
 
 #mainPageBody {
     width: 1000px;
     margin: 0px auto;
-    background-color: white;
+    background-color: rgb(193, 253, 255);
     display: flex;
     flex-wrap: wrap;
     font-family: RobotoMono;
