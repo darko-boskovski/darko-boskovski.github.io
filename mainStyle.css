@@ -47,6 +47,7 @@ h3 {
 #cvNavHeadline {
     width: 100%;
     margin-top: 5px;
+    margin-bottom: 30px;
 }
 
 #cvNavBar {
@@ -56,19 +57,19 @@ h3 {
 }
 
 a:visited {
-    color: rgb(154, 80, 228);
+    color: rgb(255, 255, 255);
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(3, 3, 3);
+    color: rebeccapurple;
     background-color: transparent;
     text-decoration: underline;
 }
 
 a:active {
-    color: rgb(150, 0, 0);
+    color: rebeccapurple;
     background-color: transparent;
     text-decoration: underline;
 }
