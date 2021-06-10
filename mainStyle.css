@@ -1,3 +1,20 @@
+* {
+    background-color: rgb(193, 253, 255);
+}
+
+body {
+    display: block;
+}
+
+li {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
 #mainPageContainer {
     background-color: rgb(193, 253, 255);
 }
@@ -19,7 +36,6 @@
 
 .page-section {
     width: 100%;
-    /* padding: 10px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -37,17 +53,30 @@
     flex-wrap: wrap;
 }
 
-.custom-a-tag {
-    width: 25%;
-    background-color: white;
+a:visited {
     color: rebeccapurple;
+    background-color: transparent;
     text-decoration: none;
-    font-size: 13px;
 }
 
-.custom-a-tag:hover {
-    color: red;
-    text-shadow: 0 0 10px yellow;
+a:hover {
+    color: rgb(146, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(7, 7, 7);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.custom-a-tag {
+    width: 25%;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 50px;
 }
 
 .card-style-01 {
