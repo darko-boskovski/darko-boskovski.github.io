@@ -1,17 +1,5 @@
-/* mainStyle.css for cvPage */
-
-@font-face {
-    font-family: RobotoMono;
-    src: url(PageAssets/Fonts/RobotoMono/RobotoMono-VariableFont_wght.ttf);
-}
-
-@font-face {
-    font-family: Roboto;
-    src: url(PageAssets/Fonts/Roboto/Roboto-Regular.ttf);
-}
-
 #mainPageContainer {
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(255, 255, 255);
 }
 
 #mainPageBody {
