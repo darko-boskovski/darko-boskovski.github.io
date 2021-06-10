@@ -99,7 +99,7 @@ button:hover {
 
 @media only screen and (max-width: 568px) {
     body {
-        transform: scale(0.35);
+        transform: scale(0.80);
         transform-origin: 0 0;
     }
 }
